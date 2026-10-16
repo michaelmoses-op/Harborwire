@@ -1,7 +1,7 @@
 import type { ReactNode } from 'react';
 import type { Kind } from '../domain/types';
 
-export type IconName = Kind | 'logo';
+export type IconName = Kind;
 
 export function Icon({ name, size = 20 }: { name: IconName; size?: number }) {
   return (
@@ -22,13 +22,6 @@ export function Icon({ name, size = 20 }: { name: IconName; size?: number }) {
 }
 
 const GLYPHS: Record<IconName, ReactNode> = {
-  logo: (
-    <>
-      <circle cx="11" cy="11" r="6.5" />
-      <path d="M15.5 15.5 20 20" />
-      <circle cx="11" cy="11" r="1.4" fill="currentColor" stroke="none" />
-    </>
-  ),
   git: (
     <>
       <circle cx="6" cy="6" r="2" />

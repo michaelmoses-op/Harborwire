@@ -44,11 +44,8 @@ a { color: inherit; }
 .logo {
   width: 28px;
   height: 28px;
-  display: grid;
-  place-items: center;
+  display: block;
   border-radius: 8px;
-  background: var(--ink);
-  color: var(--amber);
 }
 
 .btn {
@@ -298,7 +295,6 @@ a { color: inherit; }
 }
 .sim ::selection { background: #355848; color: #f3efe6; }
 .sim .wordmark { color: #f4efe6; }
-.sim .logo { background: #f0b429; color: #1b1408; }
 .sim-top {
   display: flex;
   justify-content: space-between;
