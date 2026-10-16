@@ -487,7 +487,7 @@ function SimulatorInner() {
     <div className="sim">
       <header className="sim-top">
         <div className="sim-brand">
-          <Wordmark />
+          <Wordmark large />
           <p className="sim-note">{phase || 'A local chart. No cluster attached.'}</p>
         </div>
         <div className="sim-actions">

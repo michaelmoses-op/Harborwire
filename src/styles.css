@@ -41,11 +41,20 @@ a { color: inherit; }
   letter-spacing: -0.03em;
   font-size: 1.05rem;
 }
+.wordmark.is-large {
+  gap: 12px;
+  font-size: 1.7rem;
+}
 .logo {
   width: 28px;
   height: 28px;
   display: block;
   border-radius: 8px;
+}
+.wordmark.is-large .logo {
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
 }
 
 .btn {
@@ -110,7 +119,7 @@ a { color: inherit; }
   display: flex;
   align-items: center;
   justify-content: space-between;
-  min-height: 72px;
+  min-height: 88px;
   gap: 16px;
 }
 .nav-links { display: flex; align-items: center; gap: 22px; }

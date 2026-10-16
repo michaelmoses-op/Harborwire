@@ -20,7 +20,7 @@ export function Landing() {
     <div className="land">
       <header className="topnav">
         <div className="topnav-inner">
-          <Wordmark />
+          <Wordmark large />
           <nav className="nav-links" aria-label="Page">
             <a href="#path">The path</a>
             <a href="#practice">Practice</a>
